@@ -1,0 +1,16 @@
+new
+dequeue_head!
+empty 1
+size 0
+enqueue_head 56
+enqueue_head 78
+enqueue_head 90
+dequeue_tail 56
+enqueue_head 123
+dequeue_tail 78
+dequeue_tail 90
+head 123
+dequeue_tail 123
+head! 
+delete
+summary
