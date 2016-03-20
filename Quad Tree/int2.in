@@ -1,0 +1,184 @@
+new
+size 0
+empty 1
+sum_x 0
+sum_y 0
+root0
+member 0 0 0
+clear
+size 0
+empty 1
+sum_x 0
+sum_y 0
+root0
+member 1 1 0
+insert 1 2
+size 1
+empty 0
+min_x 1
+max_x 1
+min_y 2
+max_y 2
+sum_x 1
+sum_y 2
+member 1 1 0
+member 1 2 1
+member 2 1 0
+insert 3 4
+size 2
+empty 0
+min_x 1
+max_x 3
+min_y 2
+max_y 4
+sum_x 4
+sum_y 6
+member 1 2 1
+member 4 4 0
+insert -3 6
+size 3
+empty 0
+min_x -3
+max_x 3
+min_y 2
+max_y 6
+sum_x 1
+sum_y 12
+member 3 4 1
+insert 1 2
+size 3
+empty 0
+min_x -3
+max_x 3
+min_y 2
+max_y 6
+sum_x 1
+sum_y 12
+member -3 6 1
+member -2 -3 0
+insert -2 -3
+size 4
+empty 0
+min_x -3
+max_x 3
+min_y -3
+max_y 6
+sum_x -1
+sum_y 9
+member -2 -3 1
+insert 12 0
+size 5
+empty 0
+min_x -3
+max_x 12
+min_y -3
+max_y 6
+sum_x 11
+sum_y 9
+member 12 0 1
+insert 21 -14
+size 6
+empty 0
+min_x -3
+max_x 21
+min_y -14
+max_y 6
+sum_x 32
+sum_y -5
+member 21 -14 1
+root
+x 1
+y 2
+sw
+x -2
+y -3
+sw0
+se0
+nw0
+ne0
+exit
+root
+x 1
+y 2
+se
+x 12
+y 0
+sw0
+nw0
+ne0
+se
+x 21
+y -14
+sw0
+se0
+nw0
+ne0
+exit
+root
+x 1
+y 2
+nw
+x -3
+y 6
+sw0
+se0
+nw0
+ne0
+exit
+root
+x 1
+y 2
+ne
+x 3
+y 4
+sw0
+se0
+nw0
+ne0
+exit
+clear
+size 0
+empty 1
+sum_x 0
+sum_y 0
+root0
+member 1 2 0
+member -2 -3 0
+member 12 0 0
+member -3 6 0
+member 3 4 0
+member 21 -14 0
+insert -3 -2
+root
+x -3
+y -2
+sw0
+se0
+nw0
+ne0
+exit
+insert -5 -2
+insert 3 -2
+insert -5 -3
+insert -3 -6
+size 5
+empty 0
+min_x -5
+max_x 3
+min_y -6
+max_y -2
+sum_x -13
+sum_y -15
+insert 5 -7
+insert -5 -2
+size 6
+empty 0
+min_x -5
+max_x 5
+min_y -7
+max_y -2
+sum_x -8
+sum_y -22
+member 5 -7 1
+delete
+summary
